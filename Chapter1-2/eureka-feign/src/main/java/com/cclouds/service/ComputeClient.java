@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @Date Create on 2017/4/14
  * @since version1.0
  */
+//绑定该接口对应compute-service服务
 @FeignClient("compute-service")
 public interface ComputeClient {
 

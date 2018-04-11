@@ -6,7 +6,9 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.feign.EnableFeignClients;
 
 @SpringBootApplication
+//添加发现服务能力
 @EnableDiscoveryClient
+//开启Feign功能
 @EnableFeignClients
 public class FeignApplication {
 
