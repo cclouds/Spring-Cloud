@@ -10,6 +10,8 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  * @Date Create on 2017/4/13
  * @since version1.0
  */
+
+//添加发现服务能力
 @EnableDiscoveryClient
 @SpringBootApplication
 public class ComputeServiceApplication {
